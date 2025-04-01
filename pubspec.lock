@@ -18,7 +18,7 @@ packages:
     source: hosted
     version: "0.4.8"
   amplify_auth_cognito:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: amplify_auth_cognito
       sha256: "246dad806fb74fded47c5845ac56bf42ae19af1a5612db13fee6f51d5af577f6"
@@ -34,7 +34,7 @@ packages:
     source: hosted
     version: "0.11.9"
   amplify_authenticator:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: amplify_authenticator
       sha256: "8039641507ca075f123939ebb4035a56795f0497dfbdbe6b0d9d5eff6133bf72"
@@ -66,7 +66,7 @@ packages:
     source: hosted
     version: "0.4.9"
   amplify_flutter:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: amplify_flutter
       sha256: "679e6a607ba81ab2b4436f889324ef632413e798ab164ce3ada0ced9c9911227"
@@ -277,6 +277,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  go_router:
+    dependency: "direct main"
+    description:
+      name: go_router
+      sha256: f02fd7d2a4dc512fec615529824fdd217fecb3a3d3de68360293a551f21634b3
+      url: "https://pub.dev"
+    source: hosted
+    version: "14.8.1"
   graphs:
     dependency: transitive
     description:
